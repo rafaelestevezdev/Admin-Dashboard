@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icon/icon-devil.png">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <header>
+        <h2 class="title-sidebar"><i class="fa-solid fa-dragon"></i> Devil of Hell's Kitchen</h2>
+      </header>
+      <nav class="sidebar-menu">
+        <ul>
+          <li><a href="#hell-kitchen"><i class="fa-solid fa-building"></i> Hell's Kitchen</a></li>
+          <li><a href="#clients"><i class="fa-solid fa-user-group"></i> Clients</a></li>
+          <li><a href="#cases"><i class="fa-solid fa-folder-open"></i> Case Files</a></li>
+          <li><a href="#evidence"><i class="fa-solid fa-magnifying-glass"></i> Evidence</a></li>
+          <li><a href="#patrol"><i class="fa-solid fa-mask"></i> Patrol Routes</a></li>
+          <li><a href="#allies"><i class="fa-solid fa-handshake"></i> Allies</a></li>
+        </ul>
+      </nav>
+      <nav class="more-options">
+        <ul>
+          <li><a href="#suit"><i class="fa-solid fa-vest"></i> Suit Upgrades</a></li>
+          <li><a href="#foggy"><i class="fa-solid fa-briefcase"></i> Nelson & Murdock</a></li>
+          <li><a href="#identity"><i class="fa-solid fa-user-secret"></i> Secret Identity</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="main-container">
+            <header class="top-header">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Hell's Kitchen...">
+        </div>
+        
+        <div class="user-profile">
+          <div class="notifications">
+            <i class="fa-solid fa-bell"></i>
+            <span class="notification-count">+99</span>
+          </div>
+          <img src="assets/icon/murdock-profile.jpg" alt="Matt Murdock" class="avatar-small">
+          <h3>Matt Murdock</h3>
+        </div>
+      
+        <div class="user-greeting">
+          <img src="assets/icon/daredevil-profile.jpg" alt="Daredevil" class="avatar-large">
+          <div class="greeting-text">
+            <p>The city needs you,</p>
+            <h3>Daredevil</h3>
+          </div>
+        </div>
+      
+        <div class="user-options">
+          <button class="new-btn">New Case</button>
+          <button class="upload-btn">Add Evidence</button>
+          <button class="share-btn">Alert Allies</button>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="cases">
+          <h2><i class="fa-solid fa-folder-open"></i> Active Investigations</h2>
+          <div class="cards-container">
+            <div class="card">
+              <div class="card-content">
+                <h2>Shadow of the Kingpin</h2>
+                <p>Daredevil uncovers a web of corruption linking New York's mayor to Wilson Fisk, risking both his secret identity and justice in Hell's Kitchen.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>Echoes of Blood</h2>
+                <p>A deadly encounter with Echo, a deaf assassin with ties to Daredevil's past, forces him to question the righteousness of his crusade.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>The Devil's Trial</h2>
+                <p>Matt Murdock defends a wrongly accused man in court, while Daredevil hunts the real culprit through the darkest corners of the city.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>Fall of the Man Without Fear</h2>
+                <p>With his identity exposed, Daredevil struggles to reclaim control as a new vigilante begins dispensing brutal justice in his name.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>Bullseye's Revenge</h2>
+                <p>When Bullseye returns to Hell's Kitchen with a vendetta, Matt must protect those he loves while facing an enemy who knows all his weaknesses.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>The Hand's Shadow</h2>
+                <p>As ancient ninjas from The Hand infiltrate New York's legal system, Matt struggles to balance his oath as an attorney with Daredevil's violent methods.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>Elektra's Return</h2>
+                <p>Matt's former flame Elektra returns to his life with a dangerous proposition, threatening to reignite old passions and even older wounds.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-content">
+                <h2>Born Again</h2>
+                <p>After losing everything that matters to him, Matt must rebuild his life and faith while a new threat emerges to test the limits of his endurance.</p>
+                <div class="card-actions">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-eye"></i>
+                  <i class="fa-solid fa-code-fork"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+         <aside class="right-sidebar">
+    <section class="announcements">
+      <h2><i class="fa-solid fa-newspaper"></i> Hell's Kitchen News</h2>
+      <div class="announcement-container">
+        <div class="announcement">
+          <h3>Crime Rate Rising</h3>
+          <p>Police report 15% increase in violent crimes in the Kitchen this month.</p>
+        </div>
+        <div class="announcement">
+          <h3>Foggy Nelson Interview</h3>
+          <p>Partner speaks out about pro bono work at Nelson & Murdock.</p>
+        </div>
+        <div class="announcement">
+          <h3>Kingpin Released</h3>
+          <p>Wilson Fisk granted early release on technicality, raising concerns.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="trending">
+      <h2><i class="fa-solid fa-fire"></i> Most Wanted</h2>
+      <div class="trending-container">
+        <div class="trending-item">
+          <img src="assets/icon/kingpin-profile.jpg" alt="Wilson Fisk" class="trending-avatar">
+          <div class="trending-info">
+            <h4>Wilson Fisk</h4>
+            <p>The Kingpin</p>
+          </div>
+        </div>
+        <div class="trending-item">
+          <img src="assets/icon/poindexter-profile.jpg" alt="Bullseye" class="trending-avatar">
+          <div class="trending-info">
+            <h4>Benjamin Poindexter</h4>
+            <p>Bullseye</p>
+          </div>
+        </div>
+        <div class="trending-item">
+          <img src="assets/icon/nobu-profile.jpg" alt="Nobu" class="trending-avatar">
+          <div class="trending-info">
+            <h4>Nobu Yoshioka</h4>
+            <p>The Hand</p>
+          </div>
+        </div>
+        <div class="trending-item">
+          <img src="assets/icon/punisher-profile.jpeg" alt="Punisher" class="trending-avatar">
+          <div class="trending-info">
+            <h4>Frank Castle</h4>
+            <p>The Punisher</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </aside>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
